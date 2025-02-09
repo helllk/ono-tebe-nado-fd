@@ -1,1 +1,163 @@
-/* место для вашего кода */
+background {}
+
+main {
+	display:
+	}
+
+	.header-all {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.header-menu /*меню*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		align-items: center; 
+		padding: 92px 51px 89px; 
+			
+	}
+	
+	.header__links-list /*1_ul-список*/{
+		display: flex;
+		gap: 30px; 
+	}
+	
+	.header__links-list-item /*пункты*/{
+		list-style: circle;
+	}
+	
+	
+	.header__link_active /*главная*/{
+		list-style: none;
+	}
+	
+	.header__link/*посмотреть и об*/{
+		font-size: 18px;
+		white-space: nowrap;
+	}
+	
+	.header__logo /*2_логотип*/{
+		display: block;
+		justify-self: center;
+		align-self: center;
+		width: 140px;
+	}
+	
+	.header_logo_img {
+		width: 100%;
+	}
+	
+	.address /*3_адрес*/ {
+		font-style: inherit;
+		color: #000000;
+	}
+
+	.header__address{
+		justify-self: end;
+		font-style: inherit;
+	}
+	
+	.adress-text/*телефон и почта*/{
+		display: block;
+		font-size: 18px; 
+		line-height: 1.35;
+		text-underline-position: under;
+		color: #000000;
+	}
+	
+	.adress-text-street/*улица*/{
+		font-size: 18px; 
+		line-height: 1.35;
+		color: #000000;
+	}
+	
+	.cover /*вся секция*/{
+		position: relative;
+		padding: 165px 50px 50px 50px;
+		background-image: url(../images/cover.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	.overlay /*блок поверх*/{
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.6000000238418579;
+		background-color: #000000;
+	}
+	
+	.cover__title /*заголовок*/{
+		position: relative;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		color: #FFF;
+		font-weight: bold;
+		font-size: 100px;
+		line-height: 1.15;
+		letter-spacing: 30px;
+		text-transform: uppercase;
+	}
+	
+	.aligned-text_left /*лево*/{
+		display: block;
+	}
+	
+	.aligned-text_center /*центр*/{
+		line-height: 1;
+		text-align: center;
+	}
+
+	.aligned-text_right /*право*/{
+		line-height: 1;
+		text-align: right;
+	}
+	
+	.letter-spacing-extended /*управвление простанством букв*/ {
+		letter-spacing: 60px;
+	}
+	
+	.no-letter-spacing /*убрать пространоство*/{
+		letter-spacing: normal;
+	}
+	
+	.cover__description /*подзоголовок и кнопка*/{
+		position: relative;
+		z-index: 1;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 78px;
+		padding: 136px 0 0;
+	}
+	
+	.cover__description-text /*text*/{
+		color: #FFF;
+		font-size: 22px;
+		line-height: 1.27;
+		text-transform: uppercase;
+		word-spacing: 18px;
+	}
+	
+	.bet-button:hover /*доп.цвет кнопки*/{
+		color: #000000;
+		background-color: #FFF;
+	}
+	
+	.bet-button /*кнопка*/{
+		border: 1px #FFF solid;
+		padding: 14px 32px;
+		color: #FFF;
+		font-family: 'Raleway', sans-serif;
+		font-weight: normal;
+		font-size: 22px;
+		line-height: 1;
+		text-transform: uppercase;
+		background-color: transparent;
+		cursor: pointer;
+	}
