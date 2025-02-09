@@ -1,10 +1,71 @@
-<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+	<link rel="stylesheet" href="fonts/fonts.css"/> <!--шрифт-->
+	<link rel="stylesheet" href="styles/global.css"/> <!--стиль глобал-->
+	<link rel="stylesheet" href="styles/style.css"/> <!--стиль локали-->
   </head>
-  <body></body>
-</html>
+  
+  <body>
+	<header class="header-all">
+		<nav class="header-menu">
+			<ul class="header__links-list">
+			<li>
+				<a class="header__link_active">главная</a>
+			</li>
+
+			<li>
+				<a class="header__link">посмотреть лоты</a>
+			</li>
+			
+			<li>
+				<a class="header__link">об аукционе</a>
+			</li>
+			</ul>
+		</nav> <!--меню-->
+		
+		<a class="header__logo"> <!--лого-->
+			<img
+				class="header_logo_img"
+				src="images/logo-black.svg"
+				alt="Логотип"
+			/>
+		</a>
+		
+		<address class="header__address">
+			<a class="adress-text" href="tel:+70000000">+9 999 555 5555</a>
+			<a class="adress-text" href="mailto:mail@example.com">info@sobaka.ge</a>
+			<a class="adress-text-street" href="adress-text">наб. Принсенграхт 263- 265, 
+			<br />Амстердам</a>
+		</address>
+	</header>
+  </body>
+  
+  <main>
+	<section class="cover"> <!--.cover?/cover-->
+		<div class="overlay"></div>
+		<h1 class="cover__title">
+			<span class="aligned-text_left">о<span class="letter-spacing-extended">но</span>
+			</span>
+			
+			<span class="aligned-text_left aligned-text_center">те<span class="letter-spacing-extended">бе</span>
+			</span>
+			
+			<span class="aligned-text_left aligned-text_right">
+			<span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span>
+			</span>	
+		</h1>
+		
+		<div class="cover__description"></div>
+		<p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+        </p>
+		
+		<button class="bet-button">
+			Сделать ставку
+		</button>
+		</div>
+	</section>
