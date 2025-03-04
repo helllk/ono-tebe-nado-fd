@@ -158,7 +158,8 @@ main {
 		background-color: transparent;
 		cursor: pointer;
 	}
-.lots /*данные о лотах*/ {
+
+	.lots /*данные о лотах*/ {
 		padding: 0 50px;
 	}
 
@@ -195,6 +196,7 @@ main {
 		width: auto;
 		height: 100%;
 		padding: 50px 40px;
+		
 	}
 
 	.card_type_film /*фон про кино*/ {
@@ -232,6 +234,7 @@ main {
 		color: #FFF;
 		font-size: 20px;
 		line-height: 1.2;
+		text-decoration: none;
 	}
 
 	.lots__look-more-link  /*ссылка на больше*/ {
