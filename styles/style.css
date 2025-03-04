@@ -1,5 +1,7 @@
-main {
-	display:
+	main {
+		display: flex;
+ 		flex-direction: column;
+ 		gap: 183px;
 	}
 
 	.header-all {
