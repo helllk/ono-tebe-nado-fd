@@ -197,25 +197,21 @@ main {
 		width: auto;
 		height: 100%;
 		padding: 50px 40px;
+		background-repeat: no-repeat;
+		background-size: cover;
 		
 	}
 
 	.card_type_film /*фон про кино*/ {
 		background-image: url(../images/card-lot-01.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
 	}
 
 	.card_type_book /*фон про книгу*/ {
 		background-image: url(../images/card-lot-02.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
 	}
 
 	.card_type_picture /*фон про картину*/ {
 		background-image: url(../images/card-lot-03.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
 	}
 
 	.card__title /*заголовок карточки*/ {
