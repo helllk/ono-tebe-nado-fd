@@ -185,6 +185,7 @@ main {
 	.card-link /*ссылка на карточку*/ {
 		display: block;
 		height: 100%;
+		text-decoration-line: none; /*убирает подчеркивание у текста карточки*/
 	}
 
 	.card /*карточка*/ {
