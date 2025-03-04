@@ -26,6 +26,7 @@ main {
 	
 	.header__link_active /*главная*/ {
 		list-style: none;
+		text-decoration-line: none;
 	}
 	
 	.header__link/*посмотреть и об*/ {
