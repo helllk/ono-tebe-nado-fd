@@ -14,15 +14,15 @@ main {
 .header-menu {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	align-items: center; 
-	padding: 92px 51px 89px; 	
+	align-items: center;
+	padding: 92px 51px 89px;	
 }
 	
 	/*1_ul-список*/ 
 	
 .header__links-list {
 	display: flex;
-	gap: 30px; 
+	gap: 30px;
 }
 	
 	/*пункты*/ 
@@ -74,7 +74,7 @@ main {
 	
 .adress-text {
 	display: block;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 1.35;
 	text-underline-position: under;
 	color: #000000;
@@ -83,7 +83,7 @@ main {
 	/*улица*/
 	
 .adress-text-street {
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 1.35;
 	color: #000000;
 }
@@ -230,16 +230,16 @@ main {
 
 	/*пункты списка*/ 
 	
-.lost__card-list-item  {
+.lost__card-list-item {
 	height: 100%;
 }
 
 	/*ссылка на карточку*/ 
 	
-.card-link  {
+.card-link {
 	display: block;
 	height: 100%;
-	text-decoration-line: none; /*убирает подчеркивание у текста карточки*/ 
+	text-decoration-line: none;
 }
 
 	/*карточка*/ 
@@ -260,7 +260,7 @@ main {
 
 	/*фон про кино*/
 	
-.card_type_film  {
+.card_type_film {
 	background-image: url(../images/card-lot-01.jpg);
 }
 
@@ -291,7 +291,7 @@ main {
 
 	/*текст карточки*/
 	
-.card__text  {
+.card__text {
 	position: relative;
 	z-index: 1;
 	color: #FFF;
@@ -302,7 +302,7 @@ main {
 
 	/*ссылка на больше*/ 
 	
-.lots__look-more-link  {
+.lots__look-more-link {
 	display: block;
 	margin: 30px 0 0 40px;
 	font-size: 20px;
@@ -313,7 +313,7 @@ main {
 	
 	/*данные об о*/
 	
-.about  {
+.about {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 24px;
@@ -380,10 +380,8 @@ main {
 	text-align: center;
 	list-style: none;
 }
-	
-.footer__menu-list-item {
-}
-	
+
+
 .footer__menu-link {
 	font-size: 18px;
 	line-height: normal;
@@ -400,9 +398,7 @@ main {
 	gap: 48px;
 	list-style: none;
 }
-	
-.footer__social-list-item{
-}
+
 
 .footer__social-icon {
 	width: auto;
