@@ -9,34 +9,39 @@
 		margin: 0 auto;
 	}
 	
-	.header-menu /*меню*/  {
+	/*меню*/ 
+	.header-menu {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		align-items: center; 
 		padding: 92px 51px 89px; 		
 	}
 	
-	.header__links-list /*1_ul-список*/  {
+	/*1_ul-список*/ 
+	.header__links-list {
 		display: flex;
 		gap: 30px; 
 	}
 	
-	.header__links-list-item /*пункты*/  {
+	/*пункты*/ 
+	.header__links-list-item {
 		list-style: circle;
 	}
 	
-	
-	.header__link_active /*главная*/  {
+	/*главная*/ 
+	.header__link_active {
 		list-style: none;
 		text-decoration-line: none;
 	}
 	
-	.header__link/*посмотреть и об*/  {
+	/*посмотреть и об*/ 
+	.header__link{
 		font-size: 18px;
 		white-space: nowrap;
 	}
 	
-	.header__logo /*2_логотип*/  {
+	/*2_логотип*/ 
+	.header__logo {
 		display: block;
 		justify-self: center;
 		align-self: center;
@@ -47,7 +52,8 @@
 		width: 100%;
 	}
 	
-	.address /*3_адрес*/  {
+	/*3_адрес*/ 
+	.address {
 		font-style: inherit;
 		color: #000000;
 	}
@@ -57,7 +63,8 @@
 		font-style: inherit;
 	}
 	
-	.adress-text /*телефон и почта*/  {
+	/*телефон и почта*/ 
+	.adress-text {
 		display: block;
 		font-size: 18px; 
 		line-height: 1.35;
@@ -65,13 +72,15 @@
 		color: #000000;
 	}
 	
-	.adress-text-street /*улица*/  {
+	/*улица*/
+	.adress-text-street {
 		font-size: 18px; 
 		line-height: 1.35;
 		color: #000000;
 	}
 	
-	.cover /*вся секция*/  {
+	/*вся секция*/ 
+	.cover {
 		position: relative;
 		padding: 165px 50px 50px 50px;
 		background-image: url(../images/cover.jpg);
@@ -79,7 +88,8 @@
 		background-size: cover;
 	}
 	
-	.overlay /*блок поверх*/  {
+	/*блок поверх*/ 
+	.overlay {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -90,7 +100,8 @@
 		background-color: #000000;
 	}
 	
-	.cover__title /*заголовок*/  {
+	/*заголовок*/ 
+	.cover__title {
 		position: relative;
 		z-index: 1;
 		display: flex;
@@ -104,29 +115,35 @@
 		text-transform: uppercase;
 	}
 	
-	.aligned-text_left /*лево*/  {
+	/*лево*/ 
+	.aligned-text_left {
 		display: block;
 	}
 	
-	.aligned-text_center /*центр*/  {
+	/*центр*/ 
+	.aligned-text_center {
 		line-height: 1;
 		text-align: center;
 	}
 
-	.aligned-text_right /*право*/  {
+	/*право*/ 
+	.aligned-text_right {
 		line-height: 1;
 		text-align: right;
 	}
 	
-	.letter-spacing-extended /*управвление простанством букв*/  {
+	/*управвление простанством букв*/ 
+	.letter-spacing-extended {
 		letter-spacing: 60px;
 	}
 	
-	.no-letter-spacing /*убрать пространоство*/  {
+	/*убрать пространоство*/ 
+	.no-letter-spacing {
 		letter-spacing: normal;
 	}
 	
-	.cover__description /*подзоголовок и кнопка*/  {
+	/*подзоголовок и кнопка*/ 
+	.cover__description {
 		position: relative;
 		z-index: 1;
 		display: flex;
@@ -136,7 +153,8 @@
 		padding: 136px 0 0;
 	}
 	
-	.cover__description-text /*text*/  {
+	/*text*/ 
+	.cover__description-text {
 		color: #FFF;
 		font-size: 22px;
 		line-height: 1.27;
@@ -144,12 +162,14 @@
 		word-spacing: 18px;
 	}
 	
-	.bet-button:hover /*доп.цвет кнопки*/  {
+	/*доп.цвет кнопки*/ 
+	.bet-button:hover {
 		color: #000000;
 		background-color: #FFF;
 	}
 	
-	.bet-button /*кнопка*/  {
+	/*кнопка*/ 
+	.bet-button {
 		border: 1px #FFF solid;
 		padding: 14px 32px;
 		color: #FFF;
@@ -162,11 +182,13 @@
 		cursor: pointer;
 	}
 
-	.lots /*данные о лотах*/  {
+	/*данные о лотах*/ 
+	.lots {
 		padding: 0 50px;
 	}
 
-	.lots__heading /*зоголовок*/  {
+	/*зоголовок*/ 
+	.lots__heading {
 		padding: 0 0 30px 40px;
 		font-weight: bold;
 		font-size: 40px;
@@ -174,24 +196,28 @@
 		text-transform: uppercase;
 	}
 
-	.lots__card-list /*карточки список*/  {
+	/*карточки список*/ 
+	.lots__card-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		column-gap: 25px;
 		list-style: none;
 	}
 
-	.lost__card-list-item /*пункты списка*/  {
+	/*пункты списка*/ 
+	.lost__card-list-item {
 		height: 100%;
 	}
 
-	.card-link /*ссылка на карточку*/  {
+	/*ссылка на карточку*/
+	.card-link  {
 		display: block;
 		height: 100%;
 		text-decoration-line: none; /*убирает подчеркивание у текста карточки*/
 	}
 
-	.card /*карточка*/  {
+	/*карточка*/ 
+	.card {
 		position: relative;
 		display: flex;
 		flex-direction: column;
@@ -205,19 +231,23 @@
 		
 	}
 
-	.card_type_film /*фон про кино*/  {
+	/*фон про кино*/
+	.card_type_film  {
 		background-image: url(../images/card-lot-01.jpg);
 	}
 
-	.card_type_book /*фон про книгу*/  {
+	/*фон про книгу*/ 
+	.card_type_book {
 		background-image: url(../images/card-lot-02.jpg);
 	}
 
-	.card_type_picture /*фон про картину*/  {
+	/*фон про картину*/ 
+	.card_type_picture {
 		background-image: url(../images/card-lot-03.jpg);
 	}
 
-	.card__title /*заголовок карточки*/  {
+	/*заголовок карточки*/ 
+	.card__title {
 		position: relative;
 		z-index: 1;
 		color: #FFF;
@@ -228,7 +258,8 @@
 		text-transform: uppercase;
 	}
 
-	.card__text /*текст карточки*/  {
+	/*текст карточки*/
+	.card__text  {
 		position: relative;
 		z-index: 1;
 		color: #FFF;
@@ -237,7 +268,8 @@
 		text-decoration: none;
 	}
 
-	.lots__look-more-link  /*ссылка на больше*/  {
+	/*ссылка на больше*/ 
+	.lots__look-more-link  {
 		display: block;
 		margin: 30px 0 0 40px;
 		font-size: 20px;
@@ -246,22 +278,25 @@
 		width: fit-content;
 	}
 	
-	.about /*данные об о*/  {
+	/*данные об о*/
+	.about  {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		column-gap: 24px;
 		padding: 0 50px;
 	}
 
-	.about__column /*колонки*/  {
+	/*колонки*/ 
+	.about__column {
 		justify-self: center;
 	}
 
-	.about__column_text  {
+	.about__column_text {
 		grid-column: 2/4;
 	}
 
-	.about__logo /*контейнер для лого*/  {
+	/*контейнер для лого*/ 
+	.about__logo {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -271,11 +306,13 @@
 		background-color: #000000;
 	}
 
-	.about__logo-img /*сама картинка*/  {
+	/*сама картинка*/ 
+	.about__logo-img {
 		width: 148px;
 	}
 
-	.about__title /*заголовок*/  {
+	/*заголовок*/ 
+	.about__title {
 		padding: 100px 0 104px;
 		font-weight: bold;
 		font-size: 40px;
@@ -283,7 +320,8 @@
 		text-transform: uppercase;
 	}
 
-	.about__text /*имя секций*/  {
+	/*имя секций*/ 
+	.about__text {
 		display: flex;
 		flex-direction: column;
 		gap: 25px;
@@ -299,12 +337,12 @@
 	
 	/*адресс не дублируем*/
 	
-	.footer__menu-list  {
+	.footer__menu-list {
 		text-align: center;
 		list-style: none;
 	}
 	
-	.footer__menu-list-item  {
+	.footer__menu-list-item {
 	}
 	
 	.footer__menu-link {
