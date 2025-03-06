@@ -10,6 +10,7 @@
 	}
 	
 	/*меню*/ 
+	
 	.header-menu {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -18,29 +19,34 @@
 	}
 	
 	/*1_ul-список*/ 
+	
 	.header__links-list {
 		display: flex;
 		gap: 30px; 
 	}
 	
 	/*пункты*/ 
+	
 	.header__links-list-item {
 		list-style: circle;
 	}
 	
 	/*главная*/ 
+	
 	.header__link_active {
 		list-style: none;
 		text-decoration-line: none;
 	}
 	
 	/*посмотреть и об*/ 
-	.header__link{
+	
+	.header__link {
 		font-size: 18px;
 		white-space: nowrap;
 	}
 	
 	/*2_логотип*/ 
+	
 	.header__logo {
 		display: block;
 		justify-self: center;
@@ -53,17 +59,19 @@
 	}
 	
 	/*3_адрес*/ 
+	
 	.address {
 		font-style: inherit;
 		color: #000000;
 	}
 
-	.header__address{
+	.header__address {
 		justify-self: end;
 		font-style: inherit;
 	}
 	
 	/*телефон и почта*/ 
+	
 	.adress-text {
 		display: block;
 		font-size: 18px; 
@@ -73,6 +81,7 @@
 	}
 	
 	/*улица*/
+	
 	.adress-text-street {
 		font-size: 18px; 
 		line-height: 1.35;
@@ -80,6 +89,7 @@
 	}
 	
 	/*вся секция*/ 
+	
 	.cover {
 		position: relative;
 		padding: 165px 50px 50px 50px;
@@ -89,6 +99,7 @@
 	}
 	
 	/*блок поверх*/ 
+	
 	.overlay {
 		position: absolute;
 		top: 0;
@@ -101,6 +112,7 @@
 	}
 	
 	/*заголовок*/ 
+	
 	.cover__title {
 		position: relative;
 		z-index: 1;
@@ -116,33 +128,39 @@
 	}
 	
 	/*лево*/ 
+	
 	.aligned-text_left {
 		display: block;
 	}
 	
 	/*центр*/ 
+	
 	.aligned-text_center {
 		line-height: 1;
 		text-align: center;
 	}
 
 	/*право*/ 
+	
 	.aligned-text_right {
 		line-height: 1;
 		text-align: right;
 	}
 	
 	/*управвление простанством букв*/ 
+	
 	.letter-spacing-extended {
 		letter-spacing: 60px;
 	}
 	
 	/*убрать пространоство*/ 
+	
 	.no-letter-spacing {
 		letter-spacing: normal;
 	}
 	
 	/*подзоголовок и кнопка*/ 
+	
 	.cover__description {
 		position: relative;
 		z-index: 1;
@@ -154,6 +172,7 @@
 	}
 	
 	/*text*/ 
+	
 	.cover__description-text {
 		color: #FFF;
 		font-size: 22px;
@@ -163,12 +182,14 @@
 	}
 	
 	/*доп.цвет кнопки*/ 
+	
 	.bet-button:hover {
 		color: #000000;
 		background-color: #FFF;
 	}
 	
 	/*кнопка*/ 
+	
 	.bet-button {
 		border: 1px #FFF solid;
 		padding: 14px 32px;
@@ -183,11 +204,13 @@
 	}
 
 	/*данные о лотах*/ 
+	
 	.lots {
 		padding: 0 50px;
 	}
 
 	/*зоголовок*/ 
+	
 	.lots__heading {
 		padding: 0 0 30px 40px;
 		font-weight: bold;
@@ -197,6 +220,7 @@
 	}
 
 	/*карточки список*/ 
+	
 	.lots__card-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -205,18 +229,21 @@
 	}
 
 	/*пункты списка*/ 
-	.lost__card-list-item {
+	
+	.lost__card-list-item  {
 		height: 100%;
 	}
 
-	/*ссылка на карточку*/
+	/*ссылка на карточку*/ 
+	
 	.card-link  {
 		display: block;
 		height: 100%;
-		text-decoration-line: none; /*убирает подчеркивание у текста карточки*/
+		text-decoration-line: none; /*убирает подчеркивание у текста карточки*/ 
 	}
 
 	/*карточка*/ 
+	
 	.card {
 		position: relative;
 		display: flex;
@@ -232,21 +259,25 @@
 	}
 
 	/*фон про кино*/
+	
 	.card_type_film  {
 		background-image: url(../images/card-lot-01.jpg);
 	}
 
 	/*фон про книгу*/ 
+	
 	.card_type_book {
 		background-image: url(../images/card-lot-02.jpg);
 	}
 
 	/*фон про картину*/ 
+	
 	.card_type_picture {
 		background-image: url(../images/card-lot-03.jpg);
 	}
 
 	/*заголовок карточки*/ 
+	
 	.card__title {
 		position: relative;
 		z-index: 1;
@@ -259,6 +290,7 @@
 	}
 
 	/*текст карточки*/
+	
 	.card__text  {
 		position: relative;
 		z-index: 1;
@@ -269,6 +301,7 @@
 	}
 
 	/*ссылка на больше*/ 
+	
 	.lots__look-more-link  {
 		display: block;
 		margin: 30px 0 0 40px;
@@ -279,6 +312,7 @@
 	}
 	
 	/*данные об о*/
+	
 	.about  {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -287,6 +321,7 @@
 	}
 
 	/*колонки*/ 
+	
 	.about__column {
 		justify-self: center;
 	}
@@ -296,6 +331,7 @@
 	}
 
 	/*контейнер для лого*/ 
+	
 	.about__logo {
 		display: flex;
 		justify-content: center;
@@ -307,11 +343,13 @@
 	}
 
 	/*сама картинка*/ 
+	
 	.about__logo-img {
 		width: 148px;
 	}
 
 	/*заголовок*/ 
+	
 	.about__title {
 		padding: 100px 0 104px;
 		font-weight: bold;
@@ -321,6 +359,7 @@
 	}
 
 	/*имя секций*/ 
+	
 	.about__text {
 		display: flex;
 		flex-direction: column;
