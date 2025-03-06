@@ -13,18 +13,18 @@ main {
 	
 .header-menu {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
-	padding: 92px 51px 89px;
+	padding: 92px 49px 96px 51px;
 }
 	
 	/*1_ul-список*/ 
 	
 .header__links-list {
 	display: flex;
-	gap: 30px;
+	gap: 10px 33px;
 }
-	
+
 	/*пункты*/ 
 	
 .header__links-list-item {
