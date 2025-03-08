@@ -258,8 +258,8 @@ main {
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 30px;
-	width: auto;
-	height: 100%;
+	width: 334px;
+	height: 596px;
 	padding: 50px 40px;
 	background-repeat: no-repeat;
 	background-size: cover;
