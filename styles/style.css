@@ -153,7 +153,7 @@ main {
 	width: 286px;
 	height: 115px;
 	margin-left: 10px;
-	margin-top: 5px;
+	margin-top: 4px;
 }
 	
 	/*центр*/ 
@@ -163,8 +163,8 @@ main {
 	text-align: center;
 	width: 339px;
 	height: 115px;
-	margin-left: 335px;
-	margin-top: 2px;
+	margin-left: 340px;
+	margin-top: 4px;
 }
 
 	/*право*/ 
@@ -174,8 +174,8 @@ main {
 	text-align: right;
 	width: 387px;
 	height: 115px;
-	margin-left: 610px;
-	margin-top: 2px;
+	margin-left: 615px;
+	margin-top: 6px;
 }
 	
 	/*управвление простанством букв*/ 
@@ -258,7 +258,7 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 24px;
 	list-style: none;
-	margin-top: 42px;
+	margin-top: 46px;
 	margin-right: 24px;
 	margin-left: 24px;
 }
@@ -374,12 +374,14 @@ main {
 	height: 240px;
 	border-radius: 50%;
 	background-color: #000000;
+	margin-top: 35px;
 }
 
 	/*сама картинка*/ 
 	
 .about__logo-img {
 	width: 148px;
+	
 }
 
 	/*заголовок*/ 
