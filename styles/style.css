@@ -149,23 +149,30 @@ main {
 	/*лево*/ 
 	
 .aligned-text_left {
-	display: block;
+	display: flex;
+	width: 286px;
+	height: 115px;
+	margin-left: 25px;
 }
 	
 	/*центр*/ 
 	
 .aligned-text_center {
-	display: block;
 	line-height: 1;
 	text-align: center;
+	width: 339px;
+	height: 115px;
+	margin-left: 350px;
 }
 
 	/*право*/ 
 	
 .aligned-text_right {
-	display: block;
 	line-height: 1;
 	text-align: right;
+	width: 387px;
+	height: 115px;
+	margin-left: 623px;
 }
 	
 	/*управвление простанством букв*/ 
