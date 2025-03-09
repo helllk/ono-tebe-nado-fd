@@ -352,12 +352,14 @@ main {
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 24px;
 	padding: 0 50px;
+	width: 1052px;
+	height: 595px;
 }
 
 	/*колонки*/ 
 	
 .about__column {
-	justify-self: center;
+	justify-self: left;
 }
 
 .about__column_text {
@@ -374,7 +376,6 @@ main {
 	height: 240px;
 	border-radius: 50%;
 	background-color: #000000;
-	margin-left: 47px;
 }
 
 	/*сама картинка*/ 
