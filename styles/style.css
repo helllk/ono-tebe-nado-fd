@@ -151,6 +151,7 @@ main {
 	/*центр*/ 
 	
 .aligned-text_center {
+	display: block;
 	line-height: 1;
 	text-align: center;
 }
@@ -158,6 +159,7 @@ main {
 	/*право*/ 
 	
 .aligned-text_right {
+	display: block;
 	line-height: 1;
 	text-align: right;
 }
@@ -165,7 +167,7 @@ main {
 	/*управвление простанством букв*/ 
 	
 .letter-spacing-extended {
-	letter-spacing: 60px;
+	letter-spacing: 25px;
 }
 	
 	/*убрать пространоство*/ 
@@ -183,7 +185,7 @@ main {
 	justify-content: flex-end;
 	align-items: center;
 	gap: 78px;
-	margin-top: 136px;
+	margin-top: 135px;
 	margin-right: 50px;
 	margin-left: 50px;
 	
