@@ -152,7 +152,6 @@ main {
 	display: flex;
 	width: 286px;
 	margin-left: 10px;
-	margin-top: 2px;
 }
 	
 	/*центр*/ 
@@ -162,7 +161,7 @@ main {
 	text-align: center;
 	width: 339px;
 	margin-left: 341px;
-	margin-top: 4.8px;
+	margin-top: 6px;
 }
 
 	/*право*/ 
@@ -172,7 +171,7 @@ main {
 	text-align: right;
 	width: 387px;
 	margin-left: 620px;
-	margin-top: 18px;
+	margin-top: 30px;
 }
 	
 	/*управвление простанством букв*/ 
@@ -195,7 +194,7 @@ main {
 	display: flex;
 	align-items: center;
 	gap: 78px;
-	margin-top: 119px;
+	margin-top: 108px;
 	margin-right: 40px;
 	margin-left: 50px;
 	
@@ -231,7 +230,7 @@ main {
 	text-transform: uppercase;
 	background-color: transparent;
 	cursor: pointer;
-	margin-left: 10px;
+	margin-left: 30px;
 }
 
 	/*данные о лотах*/ 
