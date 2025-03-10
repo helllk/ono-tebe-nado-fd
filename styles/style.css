@@ -3,7 +3,6 @@
 main {
 	display: flex;
  	flex-direction: column;
-	margin: 0;
 }
 
 .header-all {
@@ -348,7 +347,7 @@ main {
 	min-height: 595px;
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-top: 140px;
+	margin-top: 139px;
 
 }
 
