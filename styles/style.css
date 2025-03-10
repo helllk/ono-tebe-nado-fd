@@ -23,7 +23,7 @@ main {
 	align-items: center;
 	padding: 92px 49px 96px 51px;
 	width: 1100px;
-	min-height: 293px;
+	min-height: 294px;
 	justify-content: center;
 }
 	
@@ -152,7 +152,7 @@ main {
 	display: flex;
 	width: 286px;
 	margin-left: 10px;
-	margin-top: 3.3px;
+	margin-top: 3.1px;
 }
 	
 	/*центр*/ 
@@ -172,7 +172,7 @@ main {
 	text-align: right;
 	width: 387px;
 	margin-left: 619px;
-	margin-top: 7px;
+	margin-top: 10px;
 }
 	
 	/*управвление простанством букв*/ 
@@ -196,7 +196,7 @@ main {
 	justify-content: flex-center;
 	align-items: center;
 	gap: 78px;
-	margin-top: 113px;
+	margin-top: 115px;
 	margin-right: 50px;
 	margin-left: 50px;
 	
