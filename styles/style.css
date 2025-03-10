@@ -153,7 +153,7 @@ main {
 	width: 286px;
 	line-height: 115px;
 	margin-left: 10px;
-	margin-top: 3.5px;
+	margin-top: 3px;
 }
 	
 	/*центр*/ 
@@ -164,7 +164,7 @@ main {
 	width: 339px;
 	line-height: 115px;
 	margin-left: 340px;
-	margin-top: 7px;
+	margin-top: 5px;
 }
 
 	/*право*/ 
@@ -175,7 +175,7 @@ main {
 	width: 387px;
 	line-height: 115px;
 	margin-left: 616px;
-	margin-top: 9px;
+	margin-top: 7px;
 }
 	
 	/*управвление простанством букв*/ 
@@ -199,7 +199,7 @@ main {
 	justify-content: flex-end;
 	align-items: center;
 	gap: 78px;
-	margin-top: 135px;
+	margin-top: 115px;
 	margin-right: 50px;
 	margin-left: 50px;
 	
