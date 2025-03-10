@@ -1,12 +1,8 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
+
 
 main {
 	display: flex;
  	flex-direction: column;
- 	gap: 180px;
 	margin: 0;
 }
 
@@ -152,7 +148,7 @@ main {
 	display: flex;
 	width: 286px;
 	margin-left: 10px;
-	margin-top: 3.1px;
+	margin-top: 3px;
 }
 	
 	/*центр*/ 
@@ -172,7 +168,7 @@ main {
 	text-align: right;
 	width: 387px;
 	margin-left: 619px;
-	margin-top: 10px;
+	margin-top: 14px;
 }
 	
 	/*управвление простанством букв*/ 
@@ -241,7 +237,7 @@ main {
 	
 .lots__heading {
 	margin-left: 40px;
-	margin-top: 0px;
+	margin-top: 179px;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 1;
@@ -348,9 +344,12 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 24px;
-	padding: 0 50px;
 	width: 1052px;
 	min-height: 595px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 140px;
+
 }
 
 	/*колонки*/ 
@@ -405,7 +404,7 @@ main {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 50px 80px;
+	padding: 180px 50px 80px;
 }
 	
 	/*адресс не дублируем*/
