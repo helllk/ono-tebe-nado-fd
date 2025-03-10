@@ -151,9 +151,8 @@ main {
 .aligned-text_left {
 	display: flex;
 	width: 286px;
-	line-height: 115px;
 	margin-left: 10px;
-	margin-top: 3.7px;
+	margin-top: 3.3px;
 }
 	
 	/*центр*/ 
@@ -162,9 +161,8 @@ main {
 	line-height: 1;
 	text-align: center;
 	width: 339px;
-	line-height: 115px;
-	margin-left: 340px;
-	margin-top: 5.2px;
+	margin-left: 341px;
+	margin-top: 4.8px;
 }
 
 	/*право*/ 
@@ -173,8 +171,7 @@ main {
 	line-height: 1;
 	text-align: right;
 	width: 387px;
-	line-height: 115px;
-	margin-left: 617px;
+	margin-left: 619px;
 	margin-top: 7px;
 }
 	
@@ -196,7 +193,7 @@ main {
 	position: relative;
 	z-index: 1;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-center;
 	align-items: center;
 	gap: 78px;
 	margin-top: 113px;
