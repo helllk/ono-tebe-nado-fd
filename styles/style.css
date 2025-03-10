@@ -6,7 +6,7 @@
 main {
 	display: flex;
  	flex-direction: column;
- 	gap: 183px;
+ 	gap: 180px;
 	margin: 0;
 }
 
@@ -23,7 +23,7 @@ main {
 	align-items: center;
 	padding: 92px 49px 96px 51px;
 	width: 1100px;
-	min-height: 294px;
+	min-height: 293px;
 	justify-content: center;
 }
 	
@@ -405,7 +405,7 @@ main {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 180px 50px 80px;
+	padding: 50px 80px;
 }
 	
 	/*адресс не дублируем*/
