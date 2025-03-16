@@ -6,7 +6,7 @@ margin: 0;
 main {
     display: flex;
      flex-direction: column;
-     gap: 1px;
+     gap: 0px;
     margin: 0;
 }
 
@@ -239,7 +239,7 @@ main {
 	/*зоголовок*/ 
 	
 .lots__heading {
-	margin-left: 40px;
+	margin-left: 65px;
 	margin-top: 179px;
 	font-weight: bold;
 	font-size: 40px;
