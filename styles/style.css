@@ -1,12 +1,13 @@
 {
 box-sizing: border-box;
 margin: 0;
+padding: 0;
 }
 
 main {
     display: flex;
      flex-direction: column;
-     gap: 0px;
+     gap: 1px;
     margin: 0;
 }
 
@@ -107,11 +108,12 @@ main {
 .cover {
 	position: relative;
 	background-image: url(../images/cover.jpg);
-	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
-	justify-content: center;
+	text-align: center;
 	width: 1100px;
 	min-height: 757px;
+	padding: 1px 0px;
 }
 	
 	/*блок поверх*/ 
@@ -375,6 +377,7 @@ main {
 	border-radius: 50%;
 	background-color: #000000;
 	margin-left: 40px;
+	margin-top: 4px;
 }
 
 	/*сама картинка*/ 
