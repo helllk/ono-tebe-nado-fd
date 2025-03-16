@@ -6,7 +6,7 @@ margin: 0;
 main {
     display: flex;
      flex-direction: column;
-     gap: 0px;
+     gap: 1px;
     margin: 0;
 }
 
@@ -170,7 +170,7 @@ main {
 	line-height: 1;
 	text-align: right;
 	width: 387px;
-	margin-left: 620px;
+	margin-left: 621px;
 	margin-top: 30px;
 }
 	
