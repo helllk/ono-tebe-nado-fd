@@ -378,7 +378,7 @@ main {
 	border-radius: 50%;
 	background-color: #000000;
 	margin-left: 40px;
-	margin-top: 6px;
+	margin-top: 8px;
 }
 
 	/*сама картинка*/ 
@@ -391,7 +391,7 @@ main {
 	/*заголовок*/ 
 	
 .about__title {
-	padding: 100px 0 110px;
+	padding: 113px 0 110px;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 1;
@@ -411,7 +411,7 @@ main {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 180px 50px 80px;
+	padding: 180px 50px 70px;
 }
 	
 	/*адресс не дублируем*/
