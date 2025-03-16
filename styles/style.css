@@ -9,6 +9,7 @@ main {
      flex-direction: column;
      gap: 1px;
     margin: 0;
+	padding: 0;
 }
 
 .header-all {
@@ -377,7 +378,7 @@ main {
 	border-radius: 50%;
 	background-color: #000000;
 	margin-left: 40px;
-	margin-top: 4px;
+	margin-top: 6px;
 }
 
 	/*сама картинка*/ 
@@ -390,7 +391,7 @@ main {
 	/*заголовок*/ 
 	
 .about__title {
-	padding: 90px 0 104px;
+	padding: 100px 0 110px;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 1;
