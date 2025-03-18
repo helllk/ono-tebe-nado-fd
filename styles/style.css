@@ -23,7 +23,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
-	padding: 92px 49px 94px 51px;
+	padding: 92px 49px 92px 51px;
 	width: 1100px;
 	min-height: auto;
 	justify-content: center;
@@ -417,7 +417,7 @@ main {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 164px 50px 92px;
+	padding: 164px 50px 96px;
 }
 	
 	/*адресс не дублируем*/
