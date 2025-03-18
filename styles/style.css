@@ -45,12 +45,16 @@ main {
 .header__links-list-item {
 	list-style: circle;
 }
-	
+
 	/*главная*/ 
 	
 .header__link_active {
 	list-style: none;
 	text-decoration-line: none;
+}
+
+.nobullet {
+  list-style: none;
 }
 	
 	/*посмотреть и об*/ 
@@ -412,7 +416,7 @@ main {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 180px 50px 70px;
+	padding: 180px 50px 50px;
 }
 	
 	/*адресс не дублируем*/
