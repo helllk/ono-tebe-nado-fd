@@ -202,7 +202,7 @@ main {
 	display: flex;
 	align-items: center;
 	gap: 78px;
-	margin-top: 110px;
+	margin-top: 112px;
 	margin-right: 40px;
 	margin-left: 50px;
 	
@@ -291,7 +291,7 @@ main {
 	gap: 30px;
 	width: 334px;
 	min-height: 596px;
-	padding: 48px 40px;
+	padding: 46px 40px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -299,18 +299,21 @@ main {
 	/*фон про кино*/
 	
 .card_type_film {
+	position: absolute;
 	background-image: url(../images/card-lot-01.jpg);
 }
 
 	/*фон про книгу*/ 
 	
 .card_type_book {
+	position: absolute;
 	background-image: url(../images/card-lot-02.jpg);
 }
 
 	/*фон про картину*/ 
 	
 .card_type_picture {
+	position: absolute;
 	background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -384,7 +387,7 @@ main {
 	border-radius: 50%;
 	background-color: #000000;
 	margin-left: 40px;
-	margin-top: 10px;
+	margin-top: 12px;
 }
 
 	/*сама картинка*/ 
@@ -397,7 +400,7 @@ main {
 	/*заголовок*/ 
 	
 .about__title {
-	padding: 117px 0 110px;
+	padding: 116px 0 110px;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 1;
@@ -417,7 +420,7 @@ main {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 174px 50px 86px;
+	padding: 173px 50px 87px;
 }
 	
 	/*адресс не дублируем*/
