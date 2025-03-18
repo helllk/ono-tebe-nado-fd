@@ -169,7 +169,7 @@ main {
 	text-align: center;
 	width: 339px;
 	margin-left: 341px;
-	margin-top: 6px;
+	margin-top: 8px;
 }
 
 	/*право*/ 
@@ -433,6 +433,7 @@ main {
 	line-height: normal;
 	text-underline-position: under;
 	color: #000000;
+	margin-left: 5px;
 }
 
 .footer__menu-link_active {
