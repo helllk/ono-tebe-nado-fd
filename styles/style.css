@@ -417,7 +417,7 @@ main {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 160px 50px 72px;
+	padding: 160px 50px 92px;
 }
 	
 	/*адресс не дублируем*/
