@@ -88,6 +88,7 @@ main {
 .header__address {
 	justify-self: end;
 	font-style: inherit;
+	margin-right: 40px;
 }
 	
 	/*телефон и почта*/ 
@@ -416,7 +417,7 @@ main {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 180px 50px 60px;
+	padding: 180px 50px 62px;
 }
 	
 	/*адресс не дублируем*/
